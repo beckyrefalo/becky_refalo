@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(134, 28, 72);
+}
+    button {
+      width: 100%;
+      height: 50%;
+ }
+
+  
+  .button-onCLick {
+    float: center;
+    position: relative;
+    margin-left: 4%;
+
+  }
+  
+  .icon-bar {
+    width: 100%; /* Full-width */
+    max-height: fit-content;
+    background-color: rgb(255, 183, 251); /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: center; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 60%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(255, 118, 223); /* Add a hover color */
+    text-align: center;
+  }
+  
+  .active {
+    background-color: #fc8ae5c5; /* Add an active/current color */
+  
+  }
+.header h1 {
+    display: sans-serif;
+    font-style: monospace;
+    font-size: 50pt;
+    margin-block-start: 90px;
+    margin-block-end: 90px;
+    margin-inline-start: 650px;
+    margin-inline-end: 0px;
+    color: #ffff;
+}
+
+button {
+  size: 1080px;
+}
+
+body {
+  font-size: large;
+  color: white;
+  position: right;
+  box-align: right;
+}
